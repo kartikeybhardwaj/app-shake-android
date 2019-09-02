@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/main_shake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin_1"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_1"
+        android:layout_marginTop="@dimen/activity_horizontal_margin_1"
+        android:text="@string/shake_device"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/main_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textSize="64sp" />
+
+    <ImageView
+        android:id="@+id/main_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_double_1"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/baseline_arrow_forward_black_48"
+        android:tint="@color/Gray" />
+
+    <ImageView
+        android:id="@+id/main_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/music_icon"
+        android:tint="@color/Gray"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/main_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/main_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_horizontal_margin_1"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin_1"
+            android:max="10"
+            android:progress="5" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/main_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/activity_horizontal_margin_1"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin_1"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/audio_mini"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/main_sensitivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin_1"
+                android:layout_marginRight="@dimen/activity_horizontal_margin_1"
+                android:text="Sensitivity: 5"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

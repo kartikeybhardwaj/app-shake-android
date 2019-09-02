@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin_short_1">4dp</dimen>
+    <dimen name="activity_vertical_margin_short_1">4dp</dimen>
+    <dimen name="activity_horizontal_margin_short">8dp</dimen>
+    <dimen name="activity_vertical_margin_short">8dp</dimen>
+    <dimen name="activity_horizontal_margin_shortx1">10dp</dimen>
+    <dimen name="activity_vertical_margin_shortx1">10dp</dimen>
+    <dimen name="activity_horizontal_margin_shortx2">12dp</dimen>
+    <dimen name="activity_vertical_margin_shortx2">12dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin_1">18dp</dimen>
+    <dimen name="activity_vertical_margin_1">18dp</dimen>
+    <dimen name="activity_horizontal_margin_2">20dp</dimen>
+    <dimen name="activity_vertical_margin_2">20dp</dimen>
+    <dimen name="activity_horizontal_margin_one">24dp</dimen>
+    <dimen name="activity_vertical_margin_one">24dp</dimen>
+    <dimen name="activity_horizontal_margin_double">32dp</dimen>
+    <dimen name="activity_horizontal_margin_double_1">41dp</dimen>
+    <dimen name="activity_vertical_margin_double">32dp</dimen>
+    <dimen name="activity_vertical_margin_double_1">41dp</dimen>
+    <dimen name="activity_horizontal_margin_dq">55dp</dimen>
+    <dimen name="activity_vertical_margin_dq">55dp</dimen>
+    <dimen name="activity_horizontal_margin_quad">64dp</dimen>
+    <dimen name="activity_vertical_margin_quad">64dp</dimen>
+    <dimen name="activity_horizontal_margin_qd">75dp</dimen>
+    <dimen name="activity_vertical_margin_qd">75dp</dimen>
+
+    <dimen name="activity_title_size">32sp</dimen>
+
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="top_radius">15dp</dimen>
+    <dimen name="bottom_radius">15dp</dimen>
+
+    <dimen name="top_radius_small">10dp</dimen>
+    <dimen name="bottom_radius_small">10dp</dimen>
+
+    <dimen name="top_radius_equivalent">14dp</dimen>
+    <dimen name="bottom_radius_equivalent">14dp</dimen>
+
+</resources>

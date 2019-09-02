@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shake Android</string>
+    <string name="welcome">Hello from\nKiloByte</string>
+    <string name="shake_device">Shake your device</string>
+    <string name="audio_mini">Audio: Mini</string>
+    <string name="audio_full">Audio: Full</string>
+    <string name="sensitivity">Sensitivity: </string>
+</resources>
