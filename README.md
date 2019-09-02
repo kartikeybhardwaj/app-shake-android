@@ -26,6 +26,4 @@ Modify gradle file app/build.gradle [here](https://github.com/kartikeybhardwaj/s
 
 ## Project resources
 
-```
 - [Calligraphy](https://github.com/chrisjenx/Calligraphy)
-```
